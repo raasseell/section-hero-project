@@ -4,13 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GoldenCart | Shop Local. Support Local.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-<nav>
-<a href="#home" class="logo">GoldenCart</a>
+<header class="site-header">
+<nav class="navbar" aria-label="Main navigation">
+<a href="#home" class="logo">
+<img src="assets/goldencart-logo.png" alt="GoldenCart logo">
+</a>
 
 <ul class="nav-links">
 <li><a href="#home">Home</a></li>
@@ -19,30 +24,95 @@
 <li><a href="#services">Services</a></li>
 </ul>
 
-<div class="auth">
-<a href="#login">Login</a>
-<a href="#signup" class="btn">Sign up</a>
+<div class="auth-buttons">
+<a href="#login" class="btn btn-outline btn-small">Login</a>
+<a href="#signup" class="btn btn-solid btn-small">Signup</a>
 </div>
 </nav>
 </header>
 
 <main id="home">
 <section class="hero">
-<div class="hero-left">
-<span class="badge">Local marketplace</span>
-<h1>Shop <span>Local.</span> Support Local.</h1>
-<p>Find products from sellers in your community.</p>
-<a href="#features" class="btn">Start shopping</a>
+<div class="hero-text">
+<span class="badge">Local Shops. Fast Delivery. Happy You.</span>
+
+<h1>
+Shop Local.<br>
+Support Local.<br>
+<span class="highlight">GoldenCart.</span>
+</h1>
+
+<p class="description">
+GoldenCart is a multi-vendor marketplace that connects local shops,
+customers, and delivery riders in one platform.
+</p>
+
+<div class="hero-buttons">
+<a href="#shop" class="btn btn-outline">Shop Now</a>
+<a href="#sell" class="btn btn-solid">Start Selling</a>
+</div>
 </div>
 
-<div class="hero-img">
-<img src="hero.jpg" alt="Products from local sellers">
+<div class="hero-image">
+<img src="assets/goldencart-hero.png"
+alt="GoldenCart shopping app on a phone with a delivery rider on a yellow scooter">
 </div>
 </section>
 </main>
 
-<footer>
-<p>© 2026 GoldenCart</p>
+<footer class="site-footer">
+<div class="footer-grid">
+
+<div class="footer-brand">
+<div class="footer-logo"><img src="assets/goldencart-logo.png" alt="GoldenCart logo"></div>
+</div>
+
+<div class="footer-col">
+<h2>Company</h2>
+<ul>
+<li>About Us</li>
+<li>Careers</li>
+<li>Press</li>
+<li>Blog</li>
+</ul>
+</div>
+
+<div class="footer-col">
+<h2>Support</h2>
+<ul>
+<li>Help Center</li>
+<li>FAQs</li>
+<li>Contact Us</li>
+<li>Terms of Service</li>
+</ul>
+</div>
+
+<div class="footer-col">
+<h2>For Businesses</h2>
+<ul>
+<li>Sell on GoldenCart</li>
+<li>Business Solutions</li>
+<li>Delivery Partners</li>
+</ul>
+</div>
+
+<div class="footer-col footer-app">
+<div>
+<h2>Download the App</h2>
+<p>Coming Soon!</p>
+</div>
+<div class="store-buttons">
+<div class="store-btn">
+<span class="store-small">Download it on</span>
+<span class="store-big">App Store</span>
+</div>
+<div class="store-btn">
+<span class="store-small">Get it on</span>
+<span class="store-big">Google Play</span>
+</div>
+</div>
+</div>
+</div>
 </footer>
 
 </body>
