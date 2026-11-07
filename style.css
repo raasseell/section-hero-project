@@ -1,0 +1,39 @@
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gold: #f9a11b;
+    --gold-dark: #e08a00;
+    --cream: #fdf8f2;
+    --text: #111;
+    --gray: #444;
+}
+
+body {
+    cursor: default;
+    font-family: "Poppins", Arial, sans-serif;
+    color: var(--text);
+    background: #fff;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
